@@ -1,0 +1,44 @@
+{
+  "testEnvironment": "node",
+
+  "bail": false,
+  "timers": "fake",
+
+  "roots": [
+    ""
+  ],
+  "setupFiles": [],
+  "setupTestFrameworkScriptFile": "./jest-framework-setup.util.js",
+
+  "testMatch": [
+    "**/*.jest.js"
+  ],
+
+  "collectCoverage": false,
+  "collectCoverageFrom": [
+    "!**/*.util.js",
+    "!**/*.jest.js",
+    "!**/node_modules/**"
+  ],
+  "coverageDirectory": "./reports/coverage",
+  "coverageThreshold": {
+    "global": {
+      "branches": 80,
+      "functions": 80,
+      "lines": 80,
+      "statements": 80
+    }
+  },
+
+  "moduleFileExtensions": [
+    "js",
+    "json",
+    "node"
+  ],
+
+  "snapshotSerializers": [
+    "jest-object/serialise-js-object.js"
+  ],
+  "notify": true
+
+}

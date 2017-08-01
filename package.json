@@ -1,0 +1,17 @@
+{
+  "name": "jest-property-testing-demo",
+  "version": "0.0.0",
+  "description": "Demonstrate property based testing in Jest, including using save/re-run failed seeds",
+  "main": "index.js",
+  "repository": "bguiz/jest-property-testing-demo",
+  "author": "bguiz",
+  "license": "GPL-3.0",
+  "scripts": {
+    "test": "jest --config jest.config.json"
+  },
+  "devDependencies": {
+    "jest": "^20.0.4",
+    "jest-object": "^0.0.1",
+    "testcheck": "^1.0.0-rc.2"
+  }
+}
